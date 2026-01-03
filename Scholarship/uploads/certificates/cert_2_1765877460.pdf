@@ -1,0 +1,44 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <style>
+        body { font-family: "Times New Roman", serif; text-align: center; padding: 50px; background: #fff; }
+        .certificate { border: 10px solid #2c3e50; padding: 40px; max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 48px; color: #2c3e50; margin: 20px 0; }
+        h2 { font-size: 32px; color: #3498db; margin: 15px 0; }
+        p { font-size: 18px; line-height: 1.8; margin: 15px 0; }
+        .student-name { font-size: 36px; font-weight: bold; color: #2c3e50; text-decoration: underline; }
+        .verification { margin-top: 30px; font-size: 14px; color: #666; }
+        .signature { margin-top: 50px; }
+        .signature-line { border-top: 2px solid #000; width: 300px; margin: 10px auto; padding-top: 5px; }
+      </style>
+    </head>
+    <body>
+      <div class="certificate">
+        <h1>CERTIFICATE</h1>
+        <h2>This is to certify that</h2>
+        <p class="student-name">Von Esson Vergara</p>
+        <p><strong>Student ID:</strong> 28715</p>
+        <p><strong>Course:</strong> BS Information Technology</p>
+        <p><strong>Year Level:</strong> 3rd Year</p>
+        <br><br>
+        <p style="font-size: 24px; font-weight: bold;">DOES NOT HAVE AN ACTIVE SCHOLARSHIP</p>
+        <p>as of December 16, 2025</p>
+        <br>
+        <p>This certificate is issued for official purposes.</p>
+        <div class="signature">
+          <div class="signature-line">
+            <strong>Scholarship Office</strong><br>
+            School Administration
+          </div>
+        </div>
+        <div class="verification">
+          <strong>Verification Code:</strong> 983EE02AF5<br>
+          <strong>Date Issued:</strong> Dec 16, 2025 10:31 AM
+        </div>
+      </div>
+    </body>
+    </html>
+    

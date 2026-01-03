@@ -1,0 +1,214 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Certificate - Queen Angel Dolor</title>
+      <style>
+        @media print {
+          body { margin: 0; padding: 0; }
+          .no-print { display: none !important; }
+        }
+        body { 
+          font-family: "Times New Roman", serif; 
+          text-align: center; 
+          padding: 50px 20px; 
+          background: #fff; 
+          margin: 0;
+        }
+        .certificate { 
+          border: 10px solid #2c3e50; 
+          padding: 60px 40px; 
+          max-width: 900px; 
+          margin: 0 auto; 
+          background: #fff;
+          box-shadow: 0 0 30px rgba(0,0,0,0.1);
+          position: relative;
+        }
+        .qr-code {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          padding: 10px;
+          background: white;
+          border: 2px solid #2c3e50;
+          border-radius: 8px;
+        }
+        .qr-code img {
+          display: block;
+          width: 100px;
+          height: 100px;
+        }
+        .qr-label {
+          font-size: 9px;
+          color: #666;
+          margin-top: 5px;
+          font-weight: bold;
+          text-align: center;
+        }
+        h1 { 
+          font-size: 48px; 
+          color: #2c3e50; 
+          margin: 20px 0; 
+          letter-spacing: 8px;
+          font-weight: bold;
+        }
+        h2 { 
+          font-size: 28px; 
+          color: #3498db; 
+          margin: 20px 0; 
+          font-style: italic;
+        }
+        p { 
+          font-size: 18px; 
+          line-height: 1.8; 
+          margin: 15px 0; 
+          color: #333;
+        }
+        .student-name { 
+          font-size: 42px; 
+          font-weight: bold; 
+          color: #2c3e50; 
+          text-decoration: underline; 
+          margin: 30px 0;
+          font-family: "Georgia", serif;
+        }
+        .info-row {
+          font-size: 16px;
+          margin: 8px 0;
+          color: #555;
+        }
+        .main-statement {
+          font-size: 28px; 
+          font-weight: bold;
+          color: #e74c3c;
+          margin: 40px 0;
+          padding: 20px;
+          border: 3px solid #e74c3c;
+          display: inline-block;
+        }
+        .verification { 
+          margin-top: 50px; 
+          padding: 20px;
+          background: #f8f9fa;
+          border: 2px dashed #dee2e6;
+          font-size: 14px; 
+          color: #666; 
+        }
+        .verification-code {
+          font-family: "Courier New", monospace;
+          font-size: 18px;
+          font-weight: bold;
+          color: #2c3e50;
+          letter-spacing: 2px;
+        }
+        .signature { 
+          margin-top: 60px; 
+          display: flex;
+          justify-content: space-around;
+          max-width: 700px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .signature-box {
+          text-align: center;
+        }
+        .signature-line { 
+          border-top: 2px solid #000; 
+          width: 250px; 
+          margin: 10px auto; 
+          padding-top: 8px; 
+          font-weight: bold;
+        }
+        .seal {
+          width: 100px;
+          height: 100px;
+          border: 3px solid #2c3e50;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px auto;
+          font-weight: bold;
+          color: #2c3e50;
+          font-size: 12px;
+        }
+        .print-btn {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          background: #3498db;
+          color: white;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 8px;
+          cursor: pointer;
+          font-weight: bold;
+          font-size: 14px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .print-btn:hover {
+          background: #2980b9;
+        }
+      </style>
+    </head>
+    <body>
+      <button class="print-btn no-print" onclick="window.print()">Print Certificate</button>
+      
+      <div class="certificate">
+        <div class="qr-code">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=CERT-58CE96B802%7CQueen%20Angel%20Dolor%7C2025-12-16" alt="QR Code">
+          <div class="qr-label">Scan to Verify</div>
+        </div>
+        
+        <div class="seal">OFFICIAL<br>SEAL</div>
+        
+        <h1>CERTIFICATE</h1>
+        <h2>This is to certify that</h2>
+        
+        <p class="student-name">Queen Angel Dolor</p>
+        
+        <p class="info-row"><strong>Student ID:</strong> 28899</p>
+        <p class="info-row"><strong>Course:</strong> BS Information Technology</p>
+        <p class="info-row"><strong>Year Level:</strong> 3rd Year</p>
+        
+        <br>
+        
+        <div class="main-statement">
+          DOES NOT HAVE AN ACTIVE SCHOLARSHIP
+        </div>
+        
+        <p>as of <strong>December 16, 2025</strong></p>
+        
+        <br>
+        
+        <p style="font-style: italic;">This certificate is issued for official purposes and verification.</p>
+        
+        <div class="signature">
+          <div class="signature-box">
+            <div class="signature-line">
+              Scholarship Coordinator
+            </div>
+          </div>
+          <div class="signature-box">
+            <div class="signature-line">
+              School Administrator
+            </div>
+          </div>
+        </div>
+        
+        <div class="verification">
+          <strong>Verification Code:</strong><br>
+          <span class="verification-code">58CE96B802</span><br><br>
+          <strong>Date Issued:</strong> December 16, 2025 11:34 AM<br>
+          <strong>Valid For:</strong> Official Use Only
+        </div>
+      </div>
+      
+      <div class="no-print" style="text-align: center; margin-top: 40px; padding: 20px; color: #666;">
+        <p><strong>Note:</strong> Click the Print button to save as PDF (use "Save as PDF" option in print dialog)</p>
+      </div>
+    </body>
+    </html>
+    
