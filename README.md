@@ -10,8 +10,8 @@
 **Dela Cruz, Jasmine**
 **Padua Recia**
 **Ramirez, Andrea Paula**
-**Rabago**
+**Rabago, Dharel**
 **Nobleza, joy Marie**
-**Dayos**
-**Dejongoy**
+**Dayoc, Ted**
+**Dejongoy, Daniel**
 
