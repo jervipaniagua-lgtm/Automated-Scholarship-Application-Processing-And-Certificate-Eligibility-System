@@ -7,4 +7,5 @@
 **Akoy, Angel Boy 	**
 **Paniagua, Jervi P.**
 **Leysa, SHIELA MAE D.**
+**Dela Cruz, Jasmine**
 
