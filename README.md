@@ -7,11 +7,11 @@
 **Akoy, Angel Boy 	**
 **Paniagua, Jervi P.**
 **Leysa, SHIELA MAE D.**
-**Dela Cruz, Jasmine**
-**Padua Recia**
-**Ramirez, Andrea Paula**
-**Rabago, Dharel**
-**Nobleza, joy Marie**
-**Dayoc, Ted**
-**Dejongoy, Daniel**
+**Dela Cruz, Jasmine **
+**Padua Recia **
+**Ramirez, Andrea Paula **
+**Rabago, Dharel **
+**Nobleza, joy Marie **
+**Dayoc, Ted **
+**Dejongoy, Daniel **
 
