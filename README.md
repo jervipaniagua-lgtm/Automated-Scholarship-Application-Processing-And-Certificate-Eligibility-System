@@ -8,4 +8,10 @@
 **Paniagua, Jervi P.**
 **Leysa, SHIELA MAE D.**
 **Dela Cruz, Jasmine**
+**Padua Recia**
+**Ramirez, Andrea Paula**
+**Rabago**
+**Nobleza, joy Marie**
+**Dayos**
+**Dejongoy**
 
